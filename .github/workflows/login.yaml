@@ -10,7 +10,7 @@ on:
 jobs:
   login:
     runs-on: ubuntu-latest
-
+    environment: account
     steps:
       - name: Checkout 仓库代码
         uses: actions/checkout@v2
